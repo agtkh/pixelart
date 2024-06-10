@@ -2,7 +2,15 @@
 #include <fstream>
 #include <map>
 #include "pixelart.hpp"
+#include <cstdlib>
 int main(int argc, char const *argv[]) {
+    // Check if terminal is compatible with 24 bit colors
+    const char *colorterm = std::getenv("COLORTERM");
+    if (colorterm == nullptr || (std::string(colorterm) != "truecolor" && std::string(colorterm) != "24bit")) {
+        std::cerr << "Terminal is not compatible with 24 bit colors" << std::endl;
+        return 1;
+    }
+
     // Check if the user has provided a file name
     if (argc < 2) {
         std::cerr << "Usage: " << argv[0] << " <pixel art file>" << std::endl;
