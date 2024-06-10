@@ -1,0 +1,21 @@
+b=0;0;0
+w=255;255;255
+r=233;51;35
+s=100;193;237
+l=191;221;231
+
+       b       
+      blb
+      blb
+      blb
+     blslb
+   bbwwsslbb
+  bwwwssssllb
+ bwwsssssssslb
+bllsswssswssssb
+bllswbwswbwsssb
+blssswssswssssb
+blssrsssssrsssb
+ blssrrrrrsssb
+  bbsssssssbb
+    bbbbbbb

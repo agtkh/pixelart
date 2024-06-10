@@ -1,0 +1,20 @@
+r=220;41;0
+b=124;103;0
+s=255;165;59
+
+   rrrrr    
+  rrrrrrrrr 
+  bbbssbs   
+ bsbsssbsss 
+ bsbbsssbsss
+ bbssssbbbb 
+   sssssss  
+  bbrbbb    
+ bbbrbbrbbb 
+bbbbrrrrbbbb
+ssbrsrrsrbss
+sssrrrrrrsss
+ssrrrrrrrrss
+  rrr  rrr  
+ bbb    bbb 
+bbbb    bbbb
